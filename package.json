@@ -1,0 +1,25 @@
+{
+  "name": "collaborative-editor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "socket.io": "^3.1.1",
+    "socket.io-client": "^3.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/divyam09srivastava/collaborative-editor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/divyam09srivastava/collaborative-editor/issues"
+  },
+  "homepage": "https://github.com/divyam09srivastava/collaborative-editor#readme"
+}
