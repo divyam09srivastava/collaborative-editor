@@ -1,6 +1,6 @@
-const http = require('http').createServer()
-const io = require('socket.io')(http)
-var socket = io('http://localhost:4000');
+console.log("HEllo bois")
+var socket = io('http://localhost:3000', {transports: ['websocket', 'polling', 'flashsocket']});
+console.log(socket)
 const l = console.log
 function getEl(id) {
     return document.getElementById(id)
